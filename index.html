@@ -11,15 +11,83 @@
 
 <body>
 
-    <input type="color" id="color-selector">
-    <h1>HEX</h1>
-    <h1 class="hex-value"></h1>
-    <h1>RGB</h1>
-    <h1 class="rgb-value"></h1>
-    <h1>HSL</h1>
-    <h1 class="hsl-value"></h1>
+    <div id="wrapper">
+        <label>
+            Select color
+            <div id="circle">
+                <input type="color" id="color-selector">
+            </div>
+        </label>
 
+        <label>
+            Select harmony
+            <select>
+                <option value="analogous">Analogous</option>
+                <option value="monochromatic">Monochromatic</option>
+                <option value="triad">Triad</option>
+                <option value="complementary">Complementary</option>
+                <option value="compound">Compound</option>
+                <option value="shades">Shades</option>
+            </select>
+        </label>
 
+        <div id="container">
+            <div class="box far-left">
+                <div class="inside-values">
+                    <h1>HEX</h1>
+                    <h1 class="hex-value"></h1>
+                    <h1>RGB</h1>
+                    <h1 class="rgb-value"></h1>
+                    <h1>HSL</h1>
+                    <h1 class="hsl-value"></h1>
+                </div>
+            </div>
+
+            <div class="box close-left">
+                <div class="inside-values">
+                    <h1>HEX</h1>
+                    <h1 class="hex-value"></h1>
+                    <h1>RGB</h1>
+                    <h1 class="rgb-value"></h1>
+                    <h1>HSL</h1>
+                    <h1 class="hsl-value"></h1>
+                </div>
+            </div>
+
+            <div class="box middle">
+                <div class="inside-values">
+                    <h1>HEX</h1>
+                    <h1 class="hex-value"></h1>
+                    <h1>RGB</h1>
+                    <h1 class="rgb-value"></h1>
+                    <h1>HSL</h1>
+                    <h1 class="hsl-value"></h1>
+                </div>
+            </div>
+
+            <div class="box close-right">
+                <div class="inside-values">
+                    <h1>HEX</h1>
+                    <h1 class="hex-value"></h1>
+                    <h1>RGB</h1>
+                    <h1 class="rgb-value"></h1>
+                    <h1>HSL</h1>
+                    <h1 class="hsl-value"></h1>
+                </div>
+            </div>
+
+            <div class="box far-right">
+                <div class="inside-values">
+                    <h1>HEX</h1>
+                    <h1 class="hex-value"></h1>
+                    <h1>RGB</h1>
+                    <h1 class="rgb-value"></h1>
+                    <h1>HSL</h1>
+                    <h1 class="hsl-value"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
